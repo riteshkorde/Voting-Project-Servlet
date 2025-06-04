@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    form {
+      margin-bottom: 30px;
+    }
+    div {
+      margin-bottom: 15px;
+    }
+    label {
+      display: inline-block;
+      width: 100px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      padding: 8px 16px;
+    }
+    a {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Online Voting System</h2>
+
+  <!-- Login Form -->
+  <form method="post" action="login">
+    <div>
+      <label for="login-email">Email:</label>
+      <input type="text" id="login-email" name="email" required />
+    </div>
+    <div>
+      <label for="login-passwd">Password:</label>
+      <input type="password" id="login-passwd" name="passwd" required />
+    </div>
+    <div>
+      <input type="submit" value="Sign In" />
+     <button> <a href="register.html">SignUp</a></button>
+       
+    </div>
+  </form>
+
+</body>
+</html>
